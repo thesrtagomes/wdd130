@@ -25,3 +25,9 @@ img {
 p {
     padding: 10px;
 }
+
+#active, #whitewater, #rafting {
+    background-color: rgb(255, 255, 255);
+    color: rgb(200, 0, 80);
+}
+
