@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Titillium+Web:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -21,6 +24,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px; 
     background-color: #FDE2C4;
@@ -28,11 +35,15 @@ main section {
 
 body {
     background-color: white;
+    font-family: Domine;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #42b391;
+    background-color: #08769B;
 }
+
 
 nav a:hover {
     background-color:#FDE2C4;
@@ -43,6 +54,10 @@ nav a:hover {
     background-color: white;
     color:#08769B;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,19 +67,26 @@ nav a:hover {
 
 .msg {
     background-color:rgba(20,30,13, .7);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
-    color: black
+    color: black;
+    font-family: Domine;
+    padding-bottom: 15px;
 }
 
 .msg p {
-    color: black
+    color: black;
+    padding-bottom: 15px;
 }
 
 footer{
-    background-color:#42B391;
-    color: black
+    background-color:#08769B;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -73,7 +95,7 @@ footer a {
 }
 
 footer a:hover {
-    color: black
+    color: black;
 }
 
 footer p {
@@ -84,18 +106,43 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+
+footer .social img {
+  padding-top: 15px;
+}
+
 .home-title {
-    color: black
+    color: black; 
+    font-family: Titillium Web;
+    font-size: 2em; 
+    margin-top: 10px;
 }
 
 .logo {
     width: 80px
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%
+}
+
+h2 {
+    margin: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}  
+
+.card-img {
+    border: 10px solid  #08769B;
 }
