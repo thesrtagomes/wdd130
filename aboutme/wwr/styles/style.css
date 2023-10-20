@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Titillium+Web:wght@300&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +8,7 @@ nav a {
     text-align: center;
     color:white;
     text-decoration: none; /*Usado para retirar o sublinhado do link*/
+    padding: 35px;
 }
 
 nav a:hover {
@@ -37,6 +39,10 @@ main section {
 
 body {
     background-color: white;
+    font-family: Domine, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -46,8 +52,11 @@ header {
 .book, .join {
     text-decoration: none;
     color: #003559;
-    background-color: white
-    
+    background-color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -57,17 +66,20 @@ header {
 
 .msg {
     background-color:#83B5D1;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
-    background-color: #003559;
-    color: black
+    background-color: #003559bf;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
     text-decoration: none;
     color:black
-    
 }
 
 footer p a:hover {  /* Alteração adicionando p*/
@@ -82,9 +94,15 @@ footer p {
 footer p a:hover {
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
 
 .home-title {
     color: #003559;
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -93,16 +111,40 @@ h4 {
 
 .msg h2 {
     color: #003559;
+    font-family: Domine, Helvetica, sans-serif;
 }
 
 .msg p {
     color: #003559;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #003559bf;
+}
+
+main section img {
+    box-sizing: border-box;
 }
