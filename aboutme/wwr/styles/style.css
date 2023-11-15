@@ -252,6 +252,136 @@ main section img {
     text-align: center;
 }
 
+/* Contactus Subpage */
+
+#contactus {
+    background-image: url("/wdd130/aboutme/wwr/images/contactus-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contactus_title{
+    font-size: 1.35em;
+    color: #ffffffd0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.h3_contactus {
+    font-size: 0.7em;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 0;
+    text-align: end;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 50px auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #003559b7;
+    font-size: 0.8em;
+
+}
+#name, #mail {
+    font-size: 0.8em;
+    color: rgb(103, 102, 102);
+}
+
+#msg {
+    font-size: .7rem;
+    color: rgb(49, 49, 49);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    padding-right: 4px;
+    color: white;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    
+
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+
+
+button {
+    color: gray;
+    margin-top: 0;
+    float: right;
+  
+
+}
+
+input:focus, textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px;
+    /* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+    margin-left: 0.5em;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 900px) {
