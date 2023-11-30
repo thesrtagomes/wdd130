@@ -2,13 +2,16 @@
 
 body {
     margin: auto;
+    font-family: Akatab, 'Kay Pho Du', 'Ysabeau SC', sans-serif;
 }
 
-header {
+
+.header {
     display: flex;
     width: 100%;
     background-color: #CB997E;
     align-items: center;
+    font-family:'Ysabeau SC', sans-serif;
 }
 
 nav {
@@ -24,10 +27,12 @@ nav a {
     color: white;
 }
 
-nav a, footer a {
+body nav a, footer a {
     text-decoration: none;
     height: 100%;
+
 }
+
 
 footer a {
     color: #3c3e34;
@@ -54,6 +59,7 @@ nav a:hover {
 
 .main_homepage h1 {
     text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .homepage_main_grid {
@@ -88,12 +94,14 @@ nav a:hover {
 
 .homepage_list h3 {
     text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 footer {
     background-color: #cb997e;
     display: flex;
     padding: 40px 50px;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .footer_contact_icons {
@@ -180,6 +188,7 @@ header nav, footer {
 .main_professional_journey h1 {
     text-align: center;
     margin-top: 50px;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .main_content_professional_journey_grid p {
@@ -218,6 +227,7 @@ header nav, footer {
     grid-column: 1/3;
     text-align: center;
     height: auto;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .list_content_professional_journey_grid ul {
@@ -234,6 +244,7 @@ header nav, footer {
 .main_content_who_is_pamela_grid h2 {
     text-align: center;
     margin-top: 50px;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .main_content_who_is_pamela_grid  section{
