@@ -258,7 +258,7 @@ header nav, footer {
 .main_content_who_is_pamela_grid section img {
     height: 300px;
     object-fit:cover;
-    aspect-ratio: 1;
+    aspect-ratio: 1 / 1;
     border-radius: 1rem;
 }
 
